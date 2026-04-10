@@ -7,11 +7,11 @@ def main():
     service = bot.getLogin()
     
     if service:
-        print("\n[OK] Connessione alle API di Gmail stabilita.")
+        print("\n[OK] Estabilished connection to GMAIL's API.")
         # Avvia l'analisi dei PDF
         bot.getPDF(service)
     else:
-        print("\n[!] Errore durante la fase di login.")
+        print("\n[!] Error during the login phase.")
 
 if __name__ == "__main__":
     main()
